@@ -1,7 +1,18 @@
-
+import { Button } from './components/Button';
+import './styles/global.css';
 function App() {
   return (
-   <h1>Hello World</h1>
+    <>
+   <Button color="red">
+     Button 1
+   </Button>
+   <Button color="yellow">
+     Button 2
+   </Button>
+   <Button color="blue">
+     Button 3
+   </Button>
+    </>
   );
 }
 
